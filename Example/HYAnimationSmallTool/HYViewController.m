@@ -7,6 +7,7 @@
 //
 
 #import "HYViewController.h"
+#import "HYBubbleView.h"
 
 @interface HYViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    HYBubbleView *view = [[HYBubbleView alloc] initWithFrame:CGRectMake(100, 200, 50, 60)];
+    view.numberString = @"99+";
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning

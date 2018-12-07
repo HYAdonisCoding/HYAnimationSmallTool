@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0095D21208B1DB299A7318549F535881 /* Pods-HYAnimationSmallTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2C91CA513F138E355DF53F3C900C2E /* Pods-HYAnimationSmallTool_Tests-dummy.m */; };
+		389BC8AE3117ED838C33835777980D50 /* HYBubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1AEB4B7638766CDC397C5BFA03C790 /* HYBubbleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A8C2B514DABDC4358F4FBA2B3EAE3DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4D92EFFBFD20AB32E339EC8C6FC182ED /* Pods-HYAnimationSmallTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AD63E8ED0B107343E55FA78F0706BD /* Pods-HYAnimationSmallTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60AF96A7FF0F297B3DF60FB39AE055D1 /* Pods-HYAnimationSmallTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86840822F9981E642C84A955B91EEDBD /* Pods-HYAnimationSmallTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		774268C1B14613D0962E7E2FE9DB194D /* Pods-HYAnimationSmallTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BF950F092FB52CBCD6E411DB8281B3 /* Pods-HYAnimationSmallTool_Example-dummy.m */; };
+		77E60520A3CE8212D56DF11E41E1830A /* HYAnimationSmallTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B51328FF50753EB4DEB4065BD49DC6A /* HYAnimationSmallTool-dummy.m */; };
+		7951718DBE66CAAE599D6650926FC155 /* HYAnimationSmallTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B18C0FAAE8B15532047E3BB53B3FC8 /* HYAnimationSmallTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FC1721100D627D4FBDC225A75C0724E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9D0704D5639809037B09B7BA5166A4BA /* HYBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C78DA126305F83855B1C0AB57DB2EB73 /* HYBubbleView.m */; };
+		A0A7A4C703B3D9944B147BB857821159 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3660E1A2DAD29302720A721080AA891D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 252FC3C42E6123B187151DEB9FA33979;
+			remoteInfo = HYAnimationSmallTool;
+		};
+		9EE8B2F69C100A3D3D9F93E0352FD2CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43B41489F641618B91FCDF4757AC95FC;
+			remoteInfo = "Pods-HYAnimationSmallTool_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031FADC0ABA40B653F58906B19D6E9CE /* HYAnimationSmallTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYAnimationSmallTool.modulemap; sourceTree = "<group>"; };
+		0F200025805D6F25F0F9295846CE1D3E /* Pods-HYAnimationSmallTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYAnimationSmallTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1208EE04B521559F08C97C7E38A6E7E7 /* Pods_HYAnimationSmallTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYAnimationSmallTool_Tests.framework; path = "Pods-HYAnimationSmallTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8ECC6A9E49C67307A4068517FCD88E /* Pods_HYAnimationSmallTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYAnimationSmallTool_Example.framework; path = "Pods-HYAnimationSmallTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B51328FF50753EB4DEB4065BD49DC6A /* HYAnimationSmallTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYAnimationSmallTool-dummy.m"; sourceTree = "<group>"; };
+		3585EB0B45BBA79AA2C165DAD7179822 /* HYAnimationSmallTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYAnimationSmallTool-prefix.pch"; sourceTree = "<group>"; };
+		3AB2C0434AD12592729EBA08D0E336BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3DDAD253FF6C76FAAF9CBF5C1301C6B6 /* HYAnimationSmallTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HYAnimationSmallTool-Info.plist"; sourceTree = "<group>"; };
+		3E2C91CA513F138E355DF53F3C900C2E /* Pods-HYAnimationSmallTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYAnimationSmallTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		4612A3CE8F4125F7173AB5E97E796993 /* HYAnimationSmallTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HYAnimationSmallTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4B379511372503BD403C2E735BCBCCAF /* Pods-HYAnimationSmallTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYAnimationSmallTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		524FE3D857C7D2938B306F46B7F09AD5 /* Pods-HYAnimationSmallTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYAnimationSmallTool_Example-Info.plist"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6120F633157386811E6FC39B1DB684C2 /* Pods-HYAnimationSmallTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYAnimationSmallTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		61BDE48B951CD901EC0E90B47772B14A /* Pods-HYAnimationSmallTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYAnimationSmallTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6485CCC3537B568D45D816A39DFDA6F4 /* Pods-HYAnimationSmallTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYAnimationSmallTool_Tests.modulemap"; sourceTree = "<group>"; };
+		64AD63E8ED0B107343E55FA78F0706BD /* Pods-HYAnimationSmallTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYAnimationSmallTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		6EA2FB2D453E16E71BF5176B2BF71B57 /* HYAnimationSmallTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYAnimationSmallTool.framework; path = HYAnimationSmallTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		710743B38DD9A6B107421E3A0137DB62 /* Pods-HYAnimationSmallTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYAnimationSmallTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		75BC39316A9BD28A3A5AF5A62FA89C87 /* Pods-HYAnimationSmallTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYAnimationSmallTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7629E83325405644D29DB7B67FC996E0 /* Pods-HYAnimationSmallTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYAnimationSmallTool_Example.modulemap"; sourceTree = "<group>"; };
+		86840822F9981E642C84A955B91EEDBD /* Pods-HYAnimationSmallTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYAnimationSmallTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		931838AB187882861974BDF4DA7E1BBD /* HYAnimationSmallTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYAnimationSmallTool.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8B18C0FAAE8B15532047E3BB53B3FC8 /* HYAnimationSmallTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYAnimationSmallTool-umbrella.h"; sourceTree = "<group>"; };
+		B7F5E15B36630DE2890704A023006551 /* Pods-HYAnimationSmallTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYAnimationSmallTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		B9BF950F092FB52CBCD6E411DB8281B3 /* Pods-HYAnimationSmallTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYAnimationSmallTool_Example-dummy.m"; sourceTree = "<group>"; };
+		C154461CC61DC069B9A4CE25BA2891EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C78DA126305F83855B1C0AB57DB2EB73 /* HYBubbleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYBubbleView.m; path = HYAnimationSmallTool/Classes/HYBubbleView.m; sourceTree = "<group>"; };
+		CB1AEB4B7638766CDC397C5BFA03C790 /* HYBubbleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYBubbleView.h; path = HYAnimationSmallTool/Classes/HYBubbleView.h; sourceTree = "<group>"; };
+		D2A8ED9AF6AF2314DF9E97A74C8C52F4 /* Pods-HYAnimationSmallTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYAnimationSmallTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCA18B6DB9D3536C303C6EBB454A8107 /* Pods-HYAnimationSmallTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYAnimationSmallTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EE0946D779097993479EB1068C79FA63 /* Pods-HYAnimationSmallTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYAnimationSmallTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49FDB959C1CC2D03602F0C607FB15443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A7A4C703B3D9944B147BB857821159 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3BD1AE036D7AFCB2AD88161BC5ADC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8C2B514DABDC4358F4FBA2B3EAE3DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDAD4862A9ECFC5D2DB1E97EC36DC61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC1721100D627D4FBDC225A75C0724E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1959217E167AAA4220BB322C1D321EF8 /* HYAnimationSmallTool */ = {
+			isa = PBXGroup;
+			children = (
+				CB1AEB4B7638766CDC397C5BFA03C790 /* HYBubbleView.h */,
+				C78DA126305F83855B1C0AB57DB2EB73 /* HYBubbleView.m */,
+				F3AA24D8510E38C8EC32C9C03449EDFA /* Pod */,
+				5A2BB980AB6DC96699557980C3A06EB1 /* Support Files */,
+			);
+			name = HYAnimationSmallTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		46222F010B89CA0AD853E35DDDF5DB31 /* Pods-HYAnimationSmallTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6485CCC3537B568D45D816A39DFDA6F4 /* Pods-HYAnimationSmallTool_Tests.modulemap */,
+				0F200025805D6F25F0F9295846CE1D3E /* Pods-HYAnimationSmallTool_Tests-acknowledgements.markdown */,
+				61BDE48B951CD901EC0E90B47772B14A /* Pods-HYAnimationSmallTool_Tests-acknowledgements.plist */,
+				3E2C91CA513F138E355DF53F3C900C2E /* Pods-HYAnimationSmallTool_Tests-dummy.m */,
+				B7F5E15B36630DE2890704A023006551 /* Pods-HYAnimationSmallTool_Tests-Info.plist */,
+				86840822F9981E642C84A955B91EEDBD /* Pods-HYAnimationSmallTool_Tests-umbrella.h */,
+				EE0946D779097993479EB1068C79FA63 /* Pods-HYAnimationSmallTool_Tests.debug.xcconfig */,
+				75BC39316A9BD28A3A5AF5A62FA89C87 /* Pods-HYAnimationSmallTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-HYAnimationSmallTool_Tests";
+			path = "Target Support Files/Pods-HYAnimationSmallTool_Tests";
+			sourceTree = "<group>";
+		};
+		5A2BB980AB6DC96699557980C3A06EB1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				031FADC0ABA40B653F58906B19D6E9CE /* HYAnimationSmallTool.modulemap */,
+				931838AB187882861974BDF4DA7E1BBD /* HYAnimationSmallTool.xcconfig */,
+				2B51328FF50753EB4DEB4065BD49DC6A /* HYAnimationSmallTool-dummy.m */,
+				3DDAD253FF6C76FAAF9CBF5C1301C6B6 /* HYAnimationSmallTool-Info.plist */,
+				3585EB0B45BBA79AA2C165DAD7179822 /* HYAnimationSmallTool-prefix.pch */,
+				A8B18C0FAAE8B15532047E3BB53B3FC8 /* HYAnimationSmallTool-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HYAnimationSmallTool";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				964F9B0B8BDB82AA8F3D9CCC4D810AF9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BB144045CB199866B7CE7BF78A88D6C3 /* Products */,
+				8F68109DD777AD2DC3879C76D8352A06 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F68109DD777AD2DC3879C76D8352A06 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F9FDF3DB75661D41CC46D37C368A0B8 /* Pods-HYAnimationSmallTool_Example */,
+				46222F010B89CA0AD853E35DDDF5DB31 /* Pods-HYAnimationSmallTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8F9FDF3DB75661D41CC46D37C368A0B8 /* Pods-HYAnimationSmallTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7629E83325405644D29DB7B67FC996E0 /* Pods-HYAnimationSmallTool_Example.modulemap */,
+				6120F633157386811E6FC39B1DB684C2 /* Pods-HYAnimationSmallTool_Example-acknowledgements.markdown */,
+				D2A8ED9AF6AF2314DF9E97A74C8C52F4 /* Pods-HYAnimationSmallTool_Example-acknowledgements.plist */,
+				B9BF950F092FB52CBCD6E411DB8281B3 /* Pods-HYAnimationSmallTool_Example-dummy.m */,
+				4B379511372503BD403C2E735BCBCCAF /* Pods-HYAnimationSmallTool_Example-frameworks.sh */,
+				524FE3D857C7D2938B306F46B7F09AD5 /* Pods-HYAnimationSmallTool_Example-Info.plist */,
+				64AD63E8ED0B107343E55FA78F0706BD /* Pods-HYAnimationSmallTool_Example-umbrella.h */,
+				710743B38DD9A6B107421E3A0137DB62 /* Pods-HYAnimationSmallTool_Example.debug.xcconfig */,
+				DCA18B6DB9D3536C303C6EBB454A8107 /* Pods-HYAnimationSmallTool_Example.release.xcconfig */,
+			);
+			name = "Pods-HYAnimationSmallTool_Example";
+			path = "Target Support Files/Pods-HYAnimationSmallTool_Example";
+			sourceTree = "<group>";
+		};
+		964F9B0B8BDB82AA8F3D9CCC4D810AF9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1959217E167AAA4220BB322C1D321EF8 /* HYAnimationSmallTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BB144045CB199866B7CE7BF78A88D6C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EA2FB2D453E16E71BF5176B2BF71B57 /* HYAnimationSmallTool.framework */,
+				1E8ECC6A9E49C67307A4068517FCD88E /* Pods_HYAnimationSmallTool_Example.framework */,
+				1208EE04B521559F08C97C7E38A6E7E7 /* Pods_HYAnimationSmallTool_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3AA24D8510E38C8EC32C9C03449EDFA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4612A3CE8F4125F7173AB5E97E796993 /* HYAnimationSmallTool.podspec */,
+				C154461CC61DC069B9A4CE25BA2891EE /* LICENSE */,
+				3AB2C0434AD12592729EBA08D0E336BE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A25D8EFF115668D5508729C3C0AE97F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60AF96A7FF0F297B3DF60FB39AE055D1 /* Pods-HYAnimationSmallTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FA7967D2CD70AF72303204E7A7D43A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D92EFFBFD20AB32E339EC8C6FC182ED /* Pods-HYAnimationSmallTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB0400C0D3CF2B0C28FEB11A0DE4F31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7951718DBE66CAAE599D6650926FC155 /* HYAnimationSmallTool-umbrella.h in Headers */,
+				389BC8AE3117ED838C33835777980D50 /* HYBubbleView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		252FC3C42E6123B187151DEB9FA33979 /* HYAnimationSmallTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929127C3D7DDDBC476C4707F91AB9FE4 /* Build configuration list for PBXNativeTarget "HYAnimationSmallTool" */;
+			buildPhases = (
+				EDB0400C0D3CF2B0C28FEB11A0DE4F31 /* Headers */,
+				E67329E7EE63D04352755643A292AA00 /* Sources */,
+				CC3BD1AE036D7AFCB2AD88161BC5ADC3 /* Frameworks */,
+				AE0578533FA5F0E70512941DE0D5A727 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYAnimationSmallTool;
+			productName = HYAnimationSmallTool;
+			productReference = 6EA2FB2D453E16E71BF5176B2BF71B57 /* HYAnimationSmallTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43B41489F641618B91FCDF4757AC95FC /* Pods-HYAnimationSmallTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8148FE7512126FBBD640346C62D7C12B /* Build configuration list for PBXNativeTarget "Pods-HYAnimationSmallTool_Example" */;
+			buildPhases = (
+				D1FA7967D2CD70AF72303204E7A7D43A /* Headers */,
+				6C8814EF7E20F82AB2CD9DBFBACAC6DE /* Sources */,
+				49FDB959C1CC2D03602F0C607FB15443 /* Frameworks */,
+				086F14443CB2A4D62421329099E1F551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89CFB0707C0C3D6FC912465D3608DAD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYAnimationSmallTool_Example";
+			productName = "Pods-HYAnimationSmallTool_Example";
+			productReference = 1E8ECC6A9E49C67307A4068517FCD88E /* Pods_HYAnimationSmallTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E318BBB4011CFC5C0C41A13101D8A7E2 /* Pods-HYAnimationSmallTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F0AADC6479EDAB9FA2013692A92122 /* Build configuration list for PBXNativeTarget "Pods-HYAnimationSmallTool_Tests" */;
+			buildPhases = (
+				A25D8EFF115668D5508729C3C0AE97F2 /* Headers */,
+				E895D4846612CEFC3C1847E70A04BA44 /* Sources */,
+				FBDAD4862A9ECFC5D2DB1E97EC36DC61 /* Frameworks */,
+				DAB54C6BEBD0099F31C2A6BEA9036456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19065692F8FC868FDBF45AE90BE04E35 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYAnimationSmallTool_Tests";
+			productName = "Pods-HYAnimationSmallTool_Tests";
+			productReference = 1208EE04B521559F08C97C7E38A6E7E7 /* Pods_HYAnimationSmallTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BB144045CB199866B7CE7BF78A88D6C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				252FC3C42E6123B187151DEB9FA33979 /* HYAnimationSmallTool */,
+				43B41489F641618B91FCDF4757AC95FC /* Pods-HYAnimationSmallTool_Example */,
+				E318BBB4011CFC5C0C41A13101D8A7E2 /* Pods-HYAnimationSmallTool_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		086F14443CB2A4D62421329099E1F551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0578533FA5F0E70512941DE0D5A727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB54C6BEBD0099F31C2A6BEA9036456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C8814EF7E20F82AB2CD9DBFBACAC6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774268C1B14613D0962E7E2FE9DB194D /* Pods-HYAnimationSmallTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E67329E7EE63D04352755643A292AA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E60520A3CE8212D56DF11E41E1830A /* HYAnimationSmallTool-dummy.m in Sources */,
+				9D0704D5639809037B09B7BA5166A4BA /* HYBubbleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E895D4846612CEFC3C1847E70A04BA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0095D21208B1DB299A7318549F535881 /* Pods-HYAnimationSmallTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19065692F8FC868FDBF45AE90BE04E35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HYAnimationSmallTool_Example";
+			target = 43B41489F641618B91FCDF4757AC95FC /* Pods-HYAnimationSmallTool_Example */;
+			targetProxy = 9EE8B2F69C100A3D3D9F93E0352FD2CE /* PBXContainerItemProxy */;
+		};
+		89CFB0707C0C3D6FC912465D3608DAD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYAnimationSmallTool;
+			target = 252FC3C42E6123B187151DEB9FA33979 /* HYAnimationSmallTool */;
+			targetProxy = 3660E1A2DAD29302720A721080AA891D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AE9A0815DE61789DAE7943969AF8C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931838AB187882861974BDF4DA7E1BBD /* HYAnimationSmallTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYAnimationSmallTool/HYAnimationSmallTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYAnimationSmallTool/HYAnimationSmallTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYAnimationSmallTool/HYAnimationSmallTool.modulemap";
+				PRODUCT_MODULE_NAME = HYAnimationSmallTool;
+				PRODUCT_NAME = HYAnimationSmallTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C9B6692F600EF75510C034E871248FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710743B38DD9A6B107421E3A0137DB62 /* Pods-HYAnimationSmallTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYAnimationSmallTool_Example/Pods-HYAnimationSmallTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYAnimationSmallTool_Example/Pods-HYAnimationSmallTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CE6E2286A24CC2FA3A0D764B0EAD136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BC39316A9BD28A3A5AF5A62FA89C87 /* Pods-HYAnimationSmallTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYAnimationSmallTool_Tests/Pods-HYAnimationSmallTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYAnimationSmallTool_Tests/Pods-HYAnimationSmallTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		867A3629D7FEE54D61B7A93540597DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931838AB187882861974BDF4DA7E1BBD /* HYAnimationSmallTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYAnimationSmallTool/HYAnimationSmallTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYAnimationSmallTool/HYAnimationSmallTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYAnimationSmallTool/HYAnimationSmallTool.modulemap";
+				PRODUCT_MODULE_NAME = HYAnimationSmallTool;
+				PRODUCT_NAME = HYAnimationSmallTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AA4B37221B074EC15FD5EAA50D7A343B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE0946D779097993479EB1068C79FA63 /* Pods-HYAnimationSmallTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYAnimationSmallTool_Tests/Pods-HYAnimationSmallTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYAnimationSmallTool_Tests/Pods-HYAnimationSmallTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8C9A93CCAD16FC3174F0C04229AF947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA18B6DB9D3536C303C6EBB454A8107 /* Pods-HYAnimationSmallTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYAnimationSmallTool_Example/Pods-HYAnimationSmallTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYAnimationSmallTool_Example/Pods-HYAnimationSmallTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F0AADC6479EDAB9FA2013692A92122 /* Build configuration list for PBXNativeTarget "Pods-HYAnimationSmallTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4B37221B074EC15FD5EAA50D7A343B /* Debug */,
+				5CE6E2286A24CC2FA3A0D764B0EAD136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8148FE7512126FBBD640346C62D7C12B /* Build configuration list for PBXNativeTarget "Pods-HYAnimationSmallTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9B6692F600EF75510C034E871248FA /* Debug */,
+				D8C9A93CCAD16FC3174F0C04229AF947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929127C3D7DDDBC476C4707F91AB9FE4 /* Build configuration list for PBXNativeTarget "HYAnimationSmallTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867A3629D7FEE54D61B7A93540597DCA /* Debug */,
+				0AE9A0815DE61789DAE7943969AF8C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
