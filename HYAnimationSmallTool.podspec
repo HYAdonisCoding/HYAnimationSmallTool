@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYAnimationSmallTool'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'The HYAnimationSmallTool is a simple of animation tool for iOS.'
 
 # This description is used to generate tags and improve search results.
