@@ -142,7 +142,13 @@
     else if (gestureRecognizer.state == UIGestureRecognizerStateFailed ||
                gestureRecognizer.state == UIGestureRecognizerStateEnded ||
                gestureRecognizer.state == UIGestureRecognizerStateCancelled) {
+        //完成
+        if (self.finishedBlock) {
+            self.finishedBlock((id)gestureRecognizer);
+        }
+
         [self.shapeLayer removeFromSuperlayer];
+        
         [UIView animateWithDuration:.5 delay:0 usingSpringWithDamping:.3 initialSpringVelocity:0 options:(UIViewAnimationOptionCurveEaseInOut) animations:^{
             self.view2.center = self.oldViewCenter;
         } completion:^(BOOL finished) {
@@ -150,6 +156,11 @@
             self.view1.frame = self.oldViewFrame;
             self.r1 = self.oldViewFrame.size.width * .5;
             self.view1.layer.cornerRadius = self.r1;
+            
+            
+            if (self.isDisappearInFinished) {
+                [self removeFromSuperview];
+            }
         }];
     }
 }

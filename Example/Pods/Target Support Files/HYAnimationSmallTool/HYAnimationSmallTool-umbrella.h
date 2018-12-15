@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HYAnimationSmallTool.h"
 #import "HYBubbleView.h"
 
 FOUNDATION_EXPORT double HYAnimationSmallToolVersionNumber;

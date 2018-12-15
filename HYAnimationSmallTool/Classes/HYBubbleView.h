@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HYAnimationSmallTool.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -14,6 +15,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 /** 消息数 */
 @property (nonatomic, copy) NSString *numberString;
+
+/** 完成后的操作 返回数据为手势,可根据手势的state做个性化操作 */
+@property (nonatomic, copy) FinishedBlock finishedBlock;
+
+/** 完成后是否消失 */
+@property (nonatomic, assign) BOOL isDisappearInFinished;
 
 
 @end

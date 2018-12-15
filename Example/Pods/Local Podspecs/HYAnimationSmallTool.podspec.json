@@ -1,8 +1,8 @@
 {
   "name": "HYAnimationSmallTool",
   "version": "0.1.0",
-  "summary": "A short description of HYAnimationSmallTool.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "The HYAnimationSmallTool is a simple of animation tool for iOS.",
+  "description": "The HYAnimationSmallTool is a simple of animation tool for iOS. It is easy to use and understand.",
   "homepage": "https://github.com/HYAdonisCoding/HYAnimationSmallTool",
   "license": {
     "type": "MIT",
