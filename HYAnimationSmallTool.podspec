@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYAnimationSmallTool'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'The HYAnimationSmallTool is a simple of animation tool for iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ The HYAnimationSmallTool is a simple of animation tool for iOS. It is easy to us
 
   s.source_files = 'HYAnimationSmallTool/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'HYAnimationSmallTool' => ['HYAnimationSmallTool/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'HYAnimationSmallTool' => ['HYAnimationSmallTool/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
