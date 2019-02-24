@@ -11,7 +11,9 @@
 /** 完成的Block */
 typedef void(^FinishedBlock)(id data);
 
-#import "HYBubbleView.h"
+typedef void(^HYLikeBlock)(BOOL isLike);
 
+#import "HYBubbleView.h"
+#import "HYLikeView.h"
 
 #endif /* HYAnimationSmallTool_h */

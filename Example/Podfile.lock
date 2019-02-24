@@ -1,5 +1,5 @@
 PODS:
-  - HYAnimationSmallTool (0.1.1)
+  - HYAnimationSmallTool (0.1.2)
 
 DEPENDENCIES:
   - HYAnimationSmallTool (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HYAnimationSmallTool: 9e8fba4c764a51ff673b3931fc4a442e790648c3
+  HYAnimationSmallTool: c5542c6f89e280fbc82a0425aa7a2a5291452522
 
 PODFILE CHECKSUM: 7f95aec33aea62048e9fff88662e1f5a3da29018
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.1

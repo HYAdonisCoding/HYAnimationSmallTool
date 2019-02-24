@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-typedef void(^HYLikeBlock)(BOOL isLike);
+#import "HYAnimationSmallTool.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

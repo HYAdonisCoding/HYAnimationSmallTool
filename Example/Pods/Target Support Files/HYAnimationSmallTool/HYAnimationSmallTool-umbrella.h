@@ -13,6 +13,7 @@
 #import "HYAnimationSmallTool.h"
 #import "HYBubbleView.h"
 #import "HYLikeView.h"
+#import "UIImage+HYBundle.h"
 
 FOUNDATION_EXPORT double HYAnimationSmallToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char HYAnimationSmallToolVersionString[];
