@@ -57,7 +57,7 @@
             
         }
     };
-    //    view.isDisappearInFinished = YES;
+    //view.isDisappearInFinished = YES;
     [self.view addSubview:view];
 }
 - (void)didReceiveMemoryWarning
